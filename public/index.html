@@ -13,5 +13,10 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <!-- lets use teleport where instead of using the div with app lets create one with a modal class-->
+    <!-- what we will basically be doing is taking the modals that is render/register in the div with app class and placing them into the one with the modal class-->
+    <!-- to do this we need to App.vue  and replace the div with teleport and add a to attribute to tell the DOM where it should render the component -->
+    <div class="modals"></div>
   </body>
 </html>

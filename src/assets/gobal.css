@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+}
+p{
+    font-style: italic;
+}
+/* the styles will be applied everywhere we just need to import it in the main.js file */
